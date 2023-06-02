@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/variants";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "var.css";
+@import "blocks/header.css";
+@import "blocks/button.css";
+@import "blocks/image.css";

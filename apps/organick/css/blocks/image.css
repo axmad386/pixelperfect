@@ -1,0 +1,8 @@
+@layer components {
+  .banner {
+    height: calc(100vh - var(--header-height));
+    &-img {
+      @apply w-full h-full object-cover;
+    }
+  }
+}

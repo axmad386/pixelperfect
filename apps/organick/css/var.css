@@ -1,0 +1,18 @@
+@layer base {
+  :root {
+    /* colors */
+    --primary: #274c5b;
+    --primary-100: #525c60;
+    --secondary: #7eb693;
+    --tertiary: #efd372;
+    --bg-primary: #fff;
+    --bg-primary-100: #fafafa;
+    --bg-primary-200: #f9f8f8;
+    --bg-secondary: #274c5b;
+    --bg-secondary-100: var(--secondary);
+    --border-primary: #e0e0e0;
+
+    /* fonts */
+    --font-sans: Roboto, sans-serif;
+  }
+}

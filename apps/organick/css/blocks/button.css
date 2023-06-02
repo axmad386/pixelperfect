@@ -1,0 +1,7 @@
+@layer components {
+  .btn {
+    &[data-shape="circle"] {
+      @apply rounded-full flex items-center justify-center;
+    }
+  }
+}

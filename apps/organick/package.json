@@ -1,12 +1,13 @@
 {
-  "name": "organic",
+  "name": "organick",
   "private": true,
   "version": "1.0.0",
   "description": "Example Algiculture Wesite",
   "scripts": {
     "serve": "live-server .",
-    "dev": "npm run build & npm run serve",
-    "build": "NODE_ENV=production postcss ./scss/app.scss -o ./css/app.min.css"
+    "watch": "postcss ./css/app.css -o ./css/app.min.css --watch",
+    "dev": "npm run serve & npm run watch",
+    "build": "NODE_ENV=production postcss ./css/app.css -o ./css/app.min.css"
   },
   "keywords": [
     "slicing",
