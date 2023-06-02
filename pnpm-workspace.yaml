@@ -1,2 +1,2 @@
 pacages:
-  - "src/apps/*"
+  - "apps/*"

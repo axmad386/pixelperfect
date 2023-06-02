@@ -4,9 +4,9 @@
   "description": "Pixel Perfect slicing from design to HTML",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server ./src",
+    "serve": "live-server .",
     "dev": "npm run build & npm run serve",
-    "build": "NODE_ENV=production postcss ./src/scss/main.scss -o ./src/css/main.min.css"
+    "build": "NODE_ENV=production postcss ./scss/main.scss -o ./css/main.min.css"
   },
   "keywords": [
     "slicing",
