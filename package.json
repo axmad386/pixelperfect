@@ -1,0 +1,30 @@
+{
+  "name": "pixelperfect",
+  "version": "1.0.0",
+  "description": "Pixel Perfect slicing from design to HTML",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server ./src",
+    "dev": "npm run build & npm run serve",
+    "build": "NODE_ENV=production postcss ./src/scss/main.scss -o ./src/css/main.min.css"
+  },
+  "keywords": [
+    "slicing",
+    "tailwindcss",
+    "cubescc"
+  ],
+  "author": {
+    "name": "Akhmad Salafudin",
+    "email": "axmad386@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
